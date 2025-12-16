@@ -25,3 +25,10 @@
   padding: 7px;
   border-radius: 5px;
 }
+.login-form{
+  width: 400px;
+  height: 400px;
+  background-color:var(--background);
+  border: 1px solid black;
+
+}

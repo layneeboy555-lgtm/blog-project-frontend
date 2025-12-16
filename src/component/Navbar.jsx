@@ -13,6 +13,7 @@ function Navbar(){
         <a href="/about">About</a>
         <a href="/categories">Categories</a>
         <a className="admin-post"  href="/post">Post</a>
+        <a href="/login">Login</a>
       </nav>
      </header>
         </>

@@ -2,6 +2,8 @@ import { Route,Routes } from 'react-router-dom';
 import Navbar from './component/Navbar';
 
 
+
+
 function App() {
 
   return (
@@ -9,7 +11,7 @@ function App() {
       <Navbar /> 
 
       <Routes>
-      
+    
 
 
       </Routes>
