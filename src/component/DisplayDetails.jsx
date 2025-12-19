@@ -15,7 +15,8 @@ export default function DisplayDetails(){
                     <p className='figure3'>{figure.subtitle}</p>
                     <p className='figure4'>{figure.time}</p>
                     <p>{figure.date}</p>
-                    
+                    <p>{figure.category}</p>
+                    <p>{figure.content}</p>
 
                 </div>
           </div>

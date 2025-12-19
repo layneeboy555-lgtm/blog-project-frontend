@@ -1,0 +1,33 @@
+body{
+background-color: var(--background);
+}
+
+/* main body */
+.about-container{
+margin:0px;
+padding:0px;
+margin-top:50px;
+margin-left:40px;
+display: flex;
+background-color: var(--background);
+flex-direction:column;
+border-radius: 10px;
+color: var(--text-color);
+font-size: var(--font-size);
+font-family: var(--font-family);
+border-radius: var(--border-radius);
+line-height: 40px;
+
+}
+
+/* heading:about us */
+.middle{
+        margin-left: 450px;
+}
+
+.middle2{
+    margin-left: 450px;
+}
+
+
+

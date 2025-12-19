@@ -6,7 +6,8 @@ export const home = [
         date : "Wednesday, December 17, 2025.",
         time : "Airs at 1:45 AM-3:45 AM.",
         image : "/worldnews.jpeg",
-        category : "Armed Conflicts & Attacks"
+        category : "Armed Conflicts & Attacks",
+        content : "Global Unrest & International Relations",
     },
     {
         id:2,
@@ -15,7 +16,8 @@ export const home = [
         date : "Wednesday, December 17, 2025.",
         time : "Airs at 4:30pm-7:30pm ",
         image : "/politics.jpeg",
-        category : "National Politics"
+        category : "National Politics",
+        content : "Global & International Politics"
     },
     {
         id:3,
@@ -24,6 +26,8 @@ export const home = [
         date : "Wednesday, December 17, 2025.",
         time : "Airs at 4:00 AM-5:00 AM",
         image : "/entertainment.jpeg",
+        category : "Live Events & Experiential",
+        content : "Industry News & Trends"
     },
     {
         id:4,
@@ -32,6 +36,8 @@ export const home = [
         date : "Wednesday, December 17, 2025.",
         time : "Airs at 6:00 AM-7:00 AM",
         image : "/football.jpeg",
+        category : "Live Events & Experiential",
+        content : "Top Headlines & Match Previews"
     },
     {
         id:5,
@@ -40,5 +46,7 @@ export const home = [
         date : "Wednesday, December 17, 2025.",
         time : "Airs at 8:00 AM-9:00 AM",
         image : "/naija.jpeg",
+        category : "Metro Plus / Local News",
+        content : "Politics & Governance"
     }
 ]

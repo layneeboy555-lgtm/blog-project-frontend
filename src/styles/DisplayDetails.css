@@ -8,7 +8,6 @@
     background-color: var(--card-bg);
     margin: 120px;
     border-radius: 20px;
-    display: flex;
 }
 .figure{
     width: 300px;
@@ -21,12 +20,9 @@
 }
 .figure3{
     color: var(--text-color);
-    margin-top: 50px;
-    
+
 }
 
 .figure4{
     color: var(--text-color);
-    
-
 }

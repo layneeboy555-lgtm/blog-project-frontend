@@ -5,6 +5,7 @@ import Navbar from './component/Navbar';
 import Home from "./pages/Home";
 import  Displaydetails  from './component/DisplayDetails'
 import { useState } from 'react';
+import About from "./pages/About";
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/blog/:id' element={< Displaydetails/>}/>
         <Route path='/admindashboard' element={<AdminDashboard />} />
         <Route path='/categories' element={<Category />} />
+        <Route path='/about' element={ <About /> } />
       </Routes>
    </div>   
     </> 
