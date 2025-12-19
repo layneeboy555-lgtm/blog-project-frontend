@@ -18,7 +18,11 @@
 .foot-details, .foot-email{
     line-height:40px;
     margin: 20px;
+    width: 300px;
+    margin-left: 100px;
+
 }
 .foot-details, .foot-button{
-    margin-left: 50px;
+    margin-left: 105px;
+    width: 300px;
 }

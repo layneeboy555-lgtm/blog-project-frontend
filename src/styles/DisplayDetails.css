@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+    
+}
+.displaydetails{
+    width: 900px;
+    height: 400px;
+    background-color: var(--card-bg);
+    margin: 50px;
+    border-radius: 20px;
+}
+.figure{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.figure2{
+    color: var(--text-color);
+    font-style: italic;
+}
+.figure3{
+    color: var(--text-color);
+
+}
+
+.figure4{
+    color: var(--text-color);
+}

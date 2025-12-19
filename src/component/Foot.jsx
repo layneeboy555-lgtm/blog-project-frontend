@@ -13,7 +13,6 @@ function Foot(){
                </div>
 
                <div className='foot-details'>
-                   <label for="email">Email:</label>
                    <input className="foot-email"  type="email" placeholder='Enter your Email to Subscribe to our daily blogs'></input>
                    <button className='foot-button'>Subscribe</button>
                </div>
