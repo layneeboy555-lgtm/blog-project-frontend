@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import '../styles/login.css'
 
 function Login(){
 
@@ -7,8 +8,15 @@ function Login(){
         <>
         <div className="Login-field">
           <div className="login-form">
-             <h1>Admin Login</h1>
-           </div>
+
+           <div className="admin-details">
+              <h1>Admin Login</h1>
+              <input type="text" placeholder="Enter Admin Email" required></input>
+              <input type="password" placeholder="Enter Admin Password" required></input><br></br>
+              <button>Login</button>
+            </div>
+
+          </div>
         </div>
         </>
     )
