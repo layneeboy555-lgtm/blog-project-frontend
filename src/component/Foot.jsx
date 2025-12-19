@@ -13,9 +13,9 @@ function Foot(){
                </div>
 
                <div className='foot-details'>
-                   <h1>Have an idea?</h1>
-                   <h1>Tell us about it</h1>
-                   <a href="/">Contact Us</a>
+                   <label for="email">Email:</label>
+                   <input className="foot-email"  type="email" placeholder='Enter your Email to Subscribe to our daily blogs'></input>
+                   <button className='foot-button'>Subscribe</button>
                </div>
 
             
