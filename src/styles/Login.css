@@ -1,0 +1,33 @@
+.login-form{
+    width: 500px;
+    height: 400px;
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-bg);
+    padding: 40px;
+    line-height: 80px;
+    margin-top: 50px;
+    border-radius: var(--border-radius);
+
+}
+.Login-field{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+button{
+    line-height: 40px;
+    width: 400px;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+}
+input{
+    border: 2px solid var(--primary-color);
+}
+.foot{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+}

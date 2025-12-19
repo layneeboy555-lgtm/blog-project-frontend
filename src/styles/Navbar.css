@@ -11,6 +11,8 @@
   text-align: center;
   justify-content: space-between;
   border: 1px solid var(--background);
+  gap: 10px;
+  z-index: 1000;
 
 
 }

@@ -1,0 +1,17 @@
+
+.foot{
+  padding: 4rem 0;
+  border-top: 1px solid #999999;
+  font-family: 'Roboto', sans-serif;
+  color: #999999;
+  background-color: var(--primary-color);
+  text-align: center;
+  
+}
+.copyright{
+    display: flex;
+    text-align: center;
+    padding-left: 80%;
+    
+
+}
