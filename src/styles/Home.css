@@ -7,17 +7,17 @@
 .home-container{
     display: flex;
     justify-content: space-between;
-    gap: 75px;
+    gap: 40px;
     width: 240px;
     height: 300px;
-    margin: 10px;
-    margin-top: 130px;
+    margin: 100px;
+    margin-top: 90px;
     
     
 }
 .home-container2{
     background-color: var(--card-bg);
-    height: 350px;
+    height: 330px;
     width: 242px;
     border-radius: 15px;
     cursor: pointer;

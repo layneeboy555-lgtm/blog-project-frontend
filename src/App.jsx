@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import  Displaydetails  from './component/DisplayDetails'
 import { useState } from 'react';
 import About from "./pages/About";
+import Login from './component/Login'
+import Foot from './component/Foot'
 
 
 
@@ -23,7 +25,9 @@ function App() {
         <Route path='/admindashboard' element={<AdminDashboard />} />
         <Route path='/categories' element={<Category />} />
         <Route path='/about' element={ <About /> } />
+        <Route path='/login' element={ <Login /> } />
       </Routes>
+      <Foot/>
    </div>   
     </> 
   )

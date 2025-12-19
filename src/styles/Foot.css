@@ -1,0 +1,28 @@
+
+.foot{
+  padding: 4rem 0;
+  border-top: 1px solid #999999;
+  font-family: 'Roboto', sans-serif;
+  color: #999999;
+  background-color: var(--card-bg);
+  text-align: center;
+  
+}
+.copyright{
+    display: flex;
+    text-align: center;
+    padding-left: 80%;
+    
+
+}
+.foot-details, .foot-email{
+    line-height:40px;
+    margin: 20px;
+    width: 300px;
+    margin-left: 100px;
+
+}
+.foot-details, .foot-button{
+    margin-left: 105px;
+    width: 300px;
+}
