@@ -28,19 +28,35 @@ export default function AdminDashboard() {
           </div>
             <div className="child-3">
               
-         
-
-              
-
-            
-                    
+       <table border='1px'>
+        <thead>    
+              <tr>
+                  <th>Blog</th>
+                  <th>Tittle</th>
+                  <th>Subtittle</th>
+                  <th>Category</th>
+                  <th>Time</th>
+                  <th>Actions</th>
+              </tr>
+        </thead>
+        <tbody> 
+              {catInformations.map((e)=>(
+                <tr key={e.id}>
+                    <td className='id'> {e.id}</td>
+                    <td className='display-tittle'>{e.tittle} </td>
+                    <td className='display-sub'>{e.subtittle}</td>
+                    <td className='display-cat'>{e.category}</td>
+                    <td className='display-time'>{e.time}</td>
+                    <td className='actions'> <div className="edit"><FaRegEdit /></div>    <div className="delect"><RiDeleteBin5Line /></div>  </td> 
+                </tr>
+              ))}
+        </tbody>
+      </table>
       
-
-          
-              
+                  
              </div>
 
- 
+            
             
                 
         </div>
