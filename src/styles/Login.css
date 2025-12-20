@@ -1,29 +1,27 @@
-.login-form{
+.login-form {
     width: 500px;
     height: 400px;
     background-color: var(--card-bg);
     border: 1px solid var(--card-bg);
     padding: 40px;
     line-height: 80px;
-    margin-top: 50px;
     border-radius: var(--border-radius);
     margin: 150px;
+    display: flex;
+    text-align: center;
+    transform: translateX(250px);
 
 }
-.Login-field{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-button{
+.login-form button{
     line-height: 40px;
     width: 400px;
     background-color: var(--primary-color);
     border-radius: var(--border-radius);
 }
-input{
+.login-form input{
+    height: 50px;
     border: 2px solid var(--primary-color);
+    padding: 20px;
 }
 .foot{
  display: grid;
@@ -31,4 +29,5 @@ input{
  justify-content: center;
  text-align: center;
  align-items: center;
+
 }

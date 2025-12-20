@@ -32,6 +32,7 @@ function App() {
         <Route path='/categories/id' element={<DisplayCat/>} />
         <Route path='/about' element={ <About /> } />
         <Route path='/login' element={ <Login /> } />
+        
       </Routes>
       <Foot/>
    </div>   
