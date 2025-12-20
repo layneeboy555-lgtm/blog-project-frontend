@@ -12,8 +12,7 @@ export default function Home(){
     const handleclick = (data)=>{
         navigate(`/blog/${data.id}`)
     }
-    return
-    (
+    return(
         <>
         <div className="home-container">
             <div className="home">
