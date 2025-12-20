@@ -6,6 +6,7 @@
   --card-bg: #ffff;
   --primary-color: rgb(208, 10, 43);
   --border:2px solid;
+  overflow-x: hidden;
 }
 
 body{

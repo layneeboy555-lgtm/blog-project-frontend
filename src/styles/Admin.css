@@ -1,43 +1,106 @@
 .Dash-board-cont{
   background-color: var(--background);
-  width: 100%;
+  width: 95%;
   height: 900px;
-  padding-top: 30px;
+  padding-top: 30px; 
   padding: 20px;
+  
 }
 .child-1{
     background-color:var(--card-bg);
-    width: 1277px;
-    height: 100%;
+    width:100%;
+    height: 70%; 
     border-radius:var(--border-radius) ;
     padding: 12px;
+    
+    
 
 }
 .child-2{
     background-color: var(--background);
-    width: 1275px;
-    height: 100%;
     border-radius:var(--border-radius) ;
     justify-content: space-between;
+    align-items: center;
     display: flex;
-    padding-top: 10px;
-
+    padding-top: 10px;   
+    width: 100%; 
+    padding-block: 1px;
+}
+.child-3{
+    width: 100%;
 }
 .Blog-Management{
     padding-left:40px;
+
 }
-.search-bar,input{
+input{
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    padding-inline:1px ;
+    padding-block: 2px;
+    
+} 
+.search-bar{
+    padding: 15px;
+    width: 30%;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
     height: 40px;
-    width: 400px;
-    border-radius:var(--border-radius);
+    
 }
 .add-blog{
     padding-right:40px ;
 }
-.add-blog,.add{
+.add{
    height: 40px; 
    width: 150px;
    border-radius:var(--border-radius);
    color:var(--card-bg);
    background-color: var( --primary-color) ;
+   border:none ;
 }
+
+  table{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+} 
+
+.id{
+     text-align: center;
+  
+}
+.display-tittle{
+     text-align: center;
+}
+.display-sub{
+     text-align: center;
+}
+.display-cat{
+     text-align: center;
+}
+.display-time{
+    text-align: center;
+}
+.actions{
+    padding-left:39%; 
+    gap: 20px;
+    display: flex;
+}
+.edit{
+   color: blue;
+
+}
+.delect{
+    color: brown;
+}
+
+
+
+  
+
+
