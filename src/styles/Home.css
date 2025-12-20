@@ -3,26 +3,29 @@
     padding: 0;
     margin: 0;
 }
+.home{
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    margin-left: 60px;
+
+}
 
 .home-container{
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    width: 240px;
-    height: 300px;
-    margin: 100px;
-    margin-top: 90px;
-    
-    
+    width: 50%;
+    height: 100%;
+    margin-top: 60px;
+    position: relative;
 }
 .home-container2{
     background-color: var(--card-bg);
     height: 330px;
-    width: 242px;
+    width: 100%;
     border-radius: 15px;
     cursor: pointer;
     border: 1px solid var(--text-color);
-    flex-wrap: wrap;
 }
 .home-container2:hover{
     transform: scale(1.03);
@@ -30,7 +33,7 @@
     background-color:var(--text-color) ;
     color: var(--card-bg);
 }
-.home {
+.home2{
     height: 150px;
     width: 241px;
     border-radius: 10px;

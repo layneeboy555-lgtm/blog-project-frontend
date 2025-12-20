@@ -3,7 +3,7 @@ import Category from './pages/Category'
 import AdminDashboard from './Admin/AdminDashboard'
 import Navbar from './component/Navbar';
 import Home from "./pages/Home";
-import  Displaydetails  from './component/DisplayDetails'
+import  Displaydetails  from './pages/DisplayDetails'
 import { useState } from 'react';
 import About from "./pages/About";
 import Login from './component/Login'

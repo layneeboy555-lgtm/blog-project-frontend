@@ -1,28 +1,38 @@
-.container{
+
+
+.display-container{
     position: relative;
-    
+    margin: 50px;
+    padding: 0;
+
 }
 .displaydetails{
-    width: 900px;
-    height: 400px;
+    width: 680px;
+    height: 730px;
     background-color: var(--card-bg);
-    margin: 50px;
-    border-radius: 20px;
+    margin-left: 350px;
+    border-radius: 18px; 
+    display: inline-grid;
 }
 .figure{
-    width: 300px;
-    height: 300px;
+    width: 680px;
+    height: 330px;
     border-radius: 20px;
+
+
 }
 .figure2{
     color: var(--text-color);
     font-style: italic;
+    margin-top: 20px;
 }
 .figure3{
     color: var(--text-color);
-
 }
 
 .figure4{
     color: var(--text-color);
+}
+span{
+    font-weight: bold;
 }
