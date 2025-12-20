@@ -14,6 +14,7 @@ function Navbar(){
         <a href="/categories">Categories</a>
         <a className="admin-post"  href="/post">Post</a>
         <a href="/login">Login</a>
+        <a href="/https://w.app/blogs"></a>
       </nav>
      </header>
         </>

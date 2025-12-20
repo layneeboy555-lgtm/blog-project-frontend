@@ -1,5 +1,5 @@
 
-.foot{
+.footer-cont .foot{
   padding: 4rem 0;
   border-top: 1px solid #999999;
   font-family: 'Roboto', sans-serif;
@@ -9,20 +9,27 @@
   
 }
 .copyright{
-    display: flex;
-    text-align: center;
-    padding-left: 80%;
+transform: translateX(300px);
     
 
 }
-.foot-details, .foot-email{
+.foot-details .foot-email{
     line-height:40px;
     margin: 20px;
     width: 300px;
     margin-left: 100px;
+    border: 1px solid var(--primary-color);
+    padding: 5px;
 
 }
-.foot-details, .foot-button{
-    margin-left: 105px;
-    width: 300px;
+.foot-details .foot-button{
+    margin-left: 90px;
+    width: 250px;
+    height: 40px;
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+.foot-details .foot-btn{
+    width: 200px;
+    height: 20px;
 }

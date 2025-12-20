@@ -27,6 +27,7 @@ function App() {
         <Route path='/categories' element={<Category />} />
         <Route path='/about' element={ <About /> } />
         <Route path='/login' element={ <Login /> } />
+        
       </Routes>
       <Foot/>
    </div>   
