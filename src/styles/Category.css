@@ -1,4 +1,4 @@
-.container{
+.Category-cont{
   width: 1000px;
   padding: 50px;
 }
@@ -14,9 +14,11 @@
   padding: 10px;
   border: var(--border) var(--primary-color);
   cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
 }
 .show-categories:hover{
     animation: shake 0.5s;
+    box-shadow: 0 0 20px 10px  rgb(87, 87, 219);
 }
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
