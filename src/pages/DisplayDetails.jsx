@@ -8,15 +8,15 @@ export default function DisplayDetails(){
     console.log(figure)
     return(
         <>
-         <div className="container">
+         <div className="display-container">
                 <div className="displaydetails">
                     <img className='figure' src={figure.image}/>
                     <h1 className='figure2'>{figure.name}</h1>
-                    <p className='figure3'>{figure.subtitle}</p>
-                    <p className='figure4'>{figure.time}</p>
-                    <p>{figure.date}</p>
-                    <p>{figure.category}</p>
-                    <p>{figure.content}</p>
+                    <p className='figure3'><span>SUBTITLE:</span>{figure.subtitle}</p>
+                    <p className='figure4'><span>TIME:</span>{figure.time}</p>
+                    <p className='figure5'><span>DATE:</span>{figure.date}</p>
+                    <p className='figure6'><span>CATEGORY:</span>{figure.category}</p>
+                    <p className='figure7'><span>CONTENT:</span>{figure.content}</p>
 
                 </div>
           </div>

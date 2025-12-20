@@ -3,7 +3,7 @@ import Category from './pages/Category'
 import AdminDashboard from './Admin/AdminDashboard'
 import Navbar from './component/Navbar';
 import Home from "./pages/Home";
-import  Displaydetails  from './component/DisplayDetails'
+import  DisplayDetails  from './pages/DisplayDetails'
 import { useState } from 'react';
 import About from "./pages/About";
 import Login from './component/Login'
@@ -22,8 +22,11 @@ function App() {
    <div className="app">
       <Routes>
         <Route path='/' element={<Home/>}/>
+
         <Route path='/blog/:id' element={< Displaydetails/>}/>
         {/* <Route path='/admindashboard' element={<AdminDashboard />} /> */}
+        <Route path='/blog/:id' element={< DisplayDetails/>}/>
+        <Route path='/admindashboard' element={<AdminDashboard />} />
         <Route path='/admindashboard/:id' element={<AdminDashboard />} />
         <Route path='/categories' element={<Category />} />
         <Route path='/categories/id' element={<DisplayCat/>} />
