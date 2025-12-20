@@ -2,6 +2,10 @@ import '../styles/Foot.css'
 
 function Foot(){
 
+    function navigatedToWhatsap(){
+        window.location.href = "https://wa.me/2348130601361"
+    }
+
     return(
         <>
         <footer className='footer-cont'>
@@ -9,7 +13,7 @@ function Foot(){
                 <div className='foot-details'>
                    <h1>Have an idea?</h1>
                    <h1>Tell us about it</h1>
-                   <a href="/">Contact Us</a>
+                   <button className="foot-btn"  onClick={navigatedToWhatsap}>Contact Us</button>
                </div>
 
                <div className='foot-details'>
