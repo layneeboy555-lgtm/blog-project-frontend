@@ -12,13 +12,13 @@
     transform: translateX(250px);
 
 }
-.login-form button{
+.login-form .loginButton{
     line-height: 40px;
     width: 400px;
     background-color: var(--primary-color);
     border-radius: var(--border-radius);
 }
-.login-form input{
+.login-form .loginInput{
     height: 50px;
     border: 2px solid var(--primary-color);
     padding: 20px;
