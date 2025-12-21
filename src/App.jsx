@@ -8,6 +8,7 @@ import { useState } from 'react';
 import About from "./pages/About";
 import Login from './component/Login'
 import Foot from './component/Foot'
+import DisplayCat from './pages/DisplayCat';
 
 
 
@@ -21,10 +22,14 @@ function App() {
    <div className="app">
       <Routes>
         <Route path='/' element={<Home/>}/>
+
+        <Route path='/blog/:id' element={< DisplayDetails/>}/>
+        {/* <Route path='/admindashboard' element={<AdminDashboard />} /> */}
         <Route path='/blog/:id' element={< DisplayDetails/>}/>
         <Route path='/admindashboard' element={<AdminDashboard />} />
         <Route path='/admindashboard/:id' element={<AdminDashboard />} />
         <Route path='/categories' element={<Category />} />
+        <Route path='/categories/id' element={<DisplayCat/>} />
         <Route path='/about' element={ <About /> } />
         <Route path='/login' element={ <Login /> } />
         

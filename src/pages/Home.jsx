@@ -3,6 +3,7 @@ import'../styles/Home.css'
 import { home } from '../data/home'
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import BlogCard from "../component/BlogCard";
 
 
 export default function Home(){
@@ -12,19 +13,12 @@ export default function Home(){
     const handleclick = (data)=>{
         navigate(`/blog/${data.id}`)
     }
-    return
-    (
+    return(
         <>
         <div className="home-container">
             <div className="home">
-            {home.map((e)=>(
-                <div  key={e.image} onClick={()=> handleclick(e)} className="home-container2">
-                    <img className="home2" src={e.image}></img>
-                    <h1 className="title">{e.name}</h1>
-                    <p className="subtitle">{e.subtitle}</p>
-                    <p className="date">{e.date}</p>
-                    <p className="time">{e.time}</p>
-                </div>
+            {home.map((event)=>(
+              <BlogCard event={event}  />
             ))}
             </div>
         </div>
