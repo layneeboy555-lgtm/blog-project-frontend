@@ -38,7 +38,6 @@
 .home-container2:hover{
     animation: shake 0.5s;
     box-shadow: 0 0 20px 10px  var(--primary-color);
-    /* background-color:var(--background) ; */
     background-color:var(--text-color) ;
     color: var(--card-bg);
 }
