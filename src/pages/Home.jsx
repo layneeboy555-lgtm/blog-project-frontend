@@ -16,11 +16,9 @@ export default function Home(){
     return(
         <>
         <div className="home-container">
-            <div className="home">
-            {home.map((event)=>(
-              <BlogCard event={event}  />
-            ))}
-            </div>
+
+              <BlogCard data={home} handleclick={handleclick}  />
+          
         </div>
         </>
     )
