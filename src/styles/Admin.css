@@ -96,7 +96,10 @@
 
 }
  .table-list .delect{
-    color: brown;
+    color:  var( --primary-color) ;
+}
+.table-list td{
+    padding: 38px 50px;
 }
 
 
