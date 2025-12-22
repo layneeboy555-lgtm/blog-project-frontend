@@ -3,7 +3,7 @@
 .display-container{
     position: relative;
     margin: 50px;
-    padding: 0;
+    /* padding: 0 40px; */
 
 }
 .displaydetails{
@@ -13,13 +13,15 @@
     margin-left: 350px;
     border-radius: 18px; 
     display: inline-grid;
+     text-align: center; 
+    align-items: center;
+    padding: 10px;
 }
 .figure{
     width: 680px;
     height: 330px;
     border-radius: 20px;
-
-
+    margin-right: -90px;
 }
 .figure2{
     color: var(--text-color);
