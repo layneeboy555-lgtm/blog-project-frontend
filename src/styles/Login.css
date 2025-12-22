@@ -11,18 +11,23 @@
 }
 .loginInput{
     width: 400px;
-    line-height: 50px;
+    line-height: 30px;
     border-radius: var(--border-radius);
     padding: 10px;
 }
 .loginButton{
-    width: 400px;
+    width: 420px;
     line-height: 50px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border-radius: var(--border-radius);
+    color: var(--card-bg);
+    font-size: 25px;
 }
 .Login-field{
  display: flex;
  align-items: center;
  justify-content: center;
+}
+.loginButton:hover{
+    background-color: var(--primary-color);
 }
