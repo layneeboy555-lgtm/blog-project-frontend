@@ -23,8 +23,6 @@ function App() {
    <div className="app">
       <Routes>
         <Route path='/' element={<Home/>}/>
-
-        <Route path='/blog/:id' element={< DisplayDetails/>}/>
         <Route path='/blog/:id' element={< DisplayDetails/>}/>
         <Route path='/admindashboard/:id' element={<AdminDashboard />} />
         <Route path='/categories' element={<Category />} />
