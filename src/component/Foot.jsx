@@ -17,7 +17,7 @@ function Foot(){
                </div>
 
                <div className='foot-details'>
-                   <input className="foot-email"  type="email" placeholder='Enter your Email to Subscribe to our daily blogs'></input>
+                   <input className="foot-email"  type="email" placeholder='Enter your Email to Subscribe to our daily blogs'></input><br></br>
                    <button className='foot-button'>Subscribe</button>
                </div>
 

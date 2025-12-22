@@ -6,15 +6,12 @@ function Navbar(){
     return(
         <>
           <header className='header'>
-      <h1>Blogs</h1>
+      <a className="blog-title"  href="/">Blogs</a>
 
       <nav className='nav-links'>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/categories">Categories</a>
-        <a className="admin-post"  href="/post">Post</a>
-        <a href="/login">Login</a>
-        <a href="/https://w.app/blogs"></a>
+        <a className='home-nav' href="/">Home</a>
+        <a className='about-nav' href="/about">About</a>
+        <a className='cat-nav' href="/categories">Categories</a>
       </nav>
      </header>
         </>

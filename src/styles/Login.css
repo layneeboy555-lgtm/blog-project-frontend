@@ -1,4 +1,4 @@
-.login-form {
+ .login-form {
     width: 500px;
     height: 400px;
     background-color: var(--card-bg);
@@ -7,27 +7,22 @@
     line-height: 80px;
     border-radius: var(--border-radius);
     margin: 150px;
-    display: flex;
     text-align: center;
-    transform: translateX(250px);
-
 }
-.login-form .loginButton{
-    line-height: 40px;
+.loginInput{
     width: 400px;
+    line-height: 50px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+}
+.loginButton{
+    width: 400px;
+    line-height: 50px;
     background-color: var(--primary-color);
     border-radius: var(--border-radius);
 }
-.login-form .loginInput{
-    height: 50px;
-    border: 2px solid var(--primary-color);
-    padding: 20px;
-}
-.foot{
- display: grid;
- grid-template-columns: repeat(2,1fr);
- justify-content: center;
- text-align: center;
+.Login-field{
+ display: flex;
  align-items: center;
-
+ justify-content: center;
 }

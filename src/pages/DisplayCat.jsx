@@ -9,11 +9,11 @@ export default function DisplayCat() {
     console.log(items)
   return (
     <>
-      <div className='displaycards'>
-            <div className='catdisplay'>
-                <p className='figure1' src={items.name}/>
-            </div>
-      </div>
+     <div className='displaycards'>
+        <div className='catdisplay'>
+          <p className='figure1' src={items.name}/>
+        </div>
+     </div>
     </>
   )
 }
