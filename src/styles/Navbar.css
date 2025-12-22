@@ -39,3 +39,6 @@
   color: var(--primary-color);
   font-size: 50px;
 }
+.home-nav, .about-nav, .cat-nav{
+  color: var(--primary-color);
+}

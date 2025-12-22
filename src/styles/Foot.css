@@ -32,6 +32,9 @@ transform: translateX(300px);
 .foot-details .foot-btn{
     width: 200px;
     height: 20px;
+    background-color: var(--card-bg);
+    border: 1px sold var(--card-bg);
+    font-size: 25px;
 }
 .foot{
  display: grid;
@@ -39,5 +42,6 @@ transform: translateX(300px);
  justify-content: center;
  text-align: center;
  align-items: center;
+ line-height: 50px;
 
 }

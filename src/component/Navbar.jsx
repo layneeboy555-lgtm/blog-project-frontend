@@ -9,9 +9,9 @@ function Navbar(){
       <a className="blog-title"  href="/">Blogs</a>
 
       <nav className='nav-links'>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/categories">Categories</a>
+        <a className='home-nav' href="/">Home</a>
+        <a className='about-nav' href="/about">About</a>
+        <a className='cat-nav' href="/categories">Categories</a>
       </nav>
      </header>
         </>

@@ -13,6 +13,7 @@
     width: 400px;
     line-height: 50px;
     border-radius: var(--border-radius);
+    padding: 10px;
 }
 .loginButton{
     width: 400px;
