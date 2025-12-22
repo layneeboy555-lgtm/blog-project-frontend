@@ -56,12 +56,11 @@
     padding-right:40px ;
 }
 .add-blog .add-btn{
-   height: 40px; 
-   width: 150px;
    border-radius:var(--border-radius);
    color:var(--card-bg);
    background-color: var( --primary-color) ;
    border:none ;
+   padding:15px 30px ;
 }
 
 .child-3 .table-list{

@@ -91,7 +91,7 @@ export const home = [
         content : "This week Amorim was confronted with a 'Free Kobbie Mainoo' T-shirt, being worn by the midfielder's half-brother, in response to the England star's repeated absence from the starting line-upAnd youngsters Harry Amass and Chido Obi posted – then deleted – pictures on social media highlighting their achievements after Amorim suggested last week they were not doing well.Club legends Rio Ferdinand, Nicky Butt and Paul Scholes have said that Mainoo would be better off leaving the club."
     },
     {
-        id:10,
+        id:1,
         name : "Naijanews",
         subtitle : "Latest Nigeria news update.",
         date : "Wednesday, December 17, 2025.",

@@ -2,7 +2,7 @@ import React from 'react'
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { FaRegEdit } from "react-icons/fa";
 import { catInformations } from "../Admin/CatinfoDisplay"
-
+import { NavLink } from 'react-router-dom';
 import '../styles/Admin.css'
 export default function AdminDashboard() {
   return (
@@ -22,7 +22,7 @@ export default function AdminDashboard() {
                    </div>
 
                     <div className="add-blog">
-                        <button className='add-btn'>+ Add New Blog</button>
+                        <NavLink className='add-btn' to='/createpost'>+ Add New Blog</NavLink>
                     </div>
               </div>
 
